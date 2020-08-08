@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.shadow {
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+}
+
+
+#vs {
+  text-align: right;
+}
+
+
+.dis {
+  display: inline-block;
+  margin: 12px;
+
+}
+
+.footer-position {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  min-height: 60%;
+  height: auto !important;
+  margin: 0 auto -142px;
+  /* the bottom margin is the negative value of the footer's height */
+}
+
+.footer,
+.push {
+  height: 142px;
+  /* .push must be the same height as .footer */
+}
+
+
+/*--------------------------------------------------------*/
+.w3-light-grey,
+.w3-hover-light-grey:hover,
+.w3-light-gray,
+.w3-hover-light-gray:hover {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+.w3-sidebar.w3-collapse {
+  display: inline-block  !important;
+}
+
+.w3-sidebar {
+    padding-left:4px;
+  height: 100%;
+  width: 15%;
+  background-color: #fff;
+  position: relative !important;
+  overflow-y: scroll;
+
+}
+/*--------------------------------------------*/
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

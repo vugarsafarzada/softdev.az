@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+
+.body2 {
+    box-shadow: 5px 5px 25px rgb(83, 83, 83);
+    position: staticx   ;
+    
+}
+
+#headr {
+    background-image: url(imgs/slide/slide1.png);
+    background-position: center;
+}
+
+#headr2 {
+    background-image: url(imgs/slide/slide2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#headr3 {
+    background-image: url(imgs/slide/slide3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+img {
+    transition: 0.4s box-shadow ease-out;
+}
+
+.lessons:hover {
+    box-shadow: 0px 0px 15px 5px rgb(0, 0, 0);
+    opacity: 0.5;
+}
+
+.imgbord {
+    border-top-right-radius: 20%;
+}
+
+#l1 {
+
+    border-top-left-radius: 100%;
+}
+
+#l2 {
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+#l3 {
+    border-bottom-left-radius: 100%;
+}
+
+#vs {
+    text-align: right;
+}
+
+.bgc {
+    background-image: linear-gradient(rgb(87, 87, 87), black);
+}
+.dis{
+    display: inline-block;
+    margin: 12px;
+
+}
+
+.wrapper {
+    min-height: 60%;
+    height: auto !important;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+}
